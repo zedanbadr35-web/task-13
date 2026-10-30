@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(239, 227, 212, 0.999);
+    padding: 50px;
+   
+}
+
+form{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(70, 22, 22);
+    color: white;
+     border-radius: 20px;
+}
+ .nameinput ,
+ .priceinput{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+ }
+ label{
+    font-size: 40px;
+    font-weight: bold; 
+ }
+ button{
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius: 20px;
+    background-color: white ;
+    color: black;
+    border: none;
+ }
+ button:hover{
+    transform: scale(1.2);
+ }
